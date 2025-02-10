@@ -815,6 +815,7 @@ pub trait Storage {
 
 /// Stores nothing.
 #[derive(Clone, Default)]
+#[allow(dead_code)]
 pub(crate) struct DummyStorage {}
 
 impl Storage for DummyStorage {
